@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f4f4f4;
+  background: linear-gradient(135deg, #0f0f10, #010101);
+  color: white;
+  text-align: center;
+}
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+}
+.header h1 {
+  font-size: 6rem;
+  margin: 0;
+}
+.header h1 span {
+  color: #ff07d6;
+}
+.small-logo {
+  font-size: 3rem;
+  background: #ff07d6;
+  color: black;
+  font-weight: bolder;
+  width: 152px;
+  height: 30px;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  gap: 20px;
+  font-size: 1rem;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+.intro {
+  font-size: 26px;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 6rem;
+  font-weight: bold;
+  color: white;
+  margin: 40px 0;
+}
+
+.countdown-timer div {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 150px;
+  min-height: 150px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-timer .label {
+  font-size: 40px;
+  color: white;
+}
+
+.countdown-timer .value {
+  font-size: 70px;
+  color: white;
+}
+
+.countdown-timer .colon {
+  font-size: 48px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.register-button {
+  background-color: #ff07d6;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.register-button:hover {
+  transform: scale(1.1);
+}
+
+.conference-details {
+  background-color: linear-gradient(135deg, #1b2fe2, #07ff30);
+  color: white;
+  padding: 25px;
+  width: 800px; 
+  font-size: 1.2rem;
+  border:2px, #ff07d6;
+  border-radius: 10px;
+  margin: 40px auto;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
+  text-align: left;
+}
+
+.conference-details h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white;
+}
+.conference-details p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.conference-details ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.conference-details ul li {
+  margin-bottom: 10px;
+}
+
+.conference-details h3 {
+  color: #ff07d6;
+}
+.speakers-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}
+/*.speakers-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}*/
+.speakers {
+  display: flex;
+  gap: 40px;
+}
+.speaker {
+  text-align: center;
+}
+.speaker img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.register-form {
+  background-color: rgb(214, 206, 206);
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 40px auto;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.register-form input {
+  width: 100%;
+  height: 25px;
+  padding: 4px;
+  margin: 12px 0;
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+.register-form button {
+  background-color: #ff07d6;
+  border: 2px;
+  padding: 20px;
+  margin-top: 16px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+.register-form button:hover {
+  background-color: #ff07d6;
+}
+footer {
+  background-color: #ff07d6;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
