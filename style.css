@@ -160,10 +160,6 @@ body {
   align-items: center;
   margin: 40px 0;
 }
-/*.speakers-title {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}*/
 .speakers {
   display: flex;
   gap: 40px;
